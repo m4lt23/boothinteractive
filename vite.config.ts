@@ -6,7 +6,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   // 1. Set the root for Vite to the 'client' folder.
   // This tells Vite where to find index.html and source files.
-  root: 'client',
   
   plugins: [react()],
   
