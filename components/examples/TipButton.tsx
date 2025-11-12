@@ -1,0 +1,1 @@
+import TipButton from '../TipButton';\n\nexport default function TipButtonExample() {\n  return (\n    <div className=\"p-4\">\n      <TipButton \n        casterName=\"Mike Johnson\"\n        onTip={(amount, message) => console.log(`Tip sent: $${amount}, Message: \"${message}\"`)} \n      />\n    </div>\n  );\n}

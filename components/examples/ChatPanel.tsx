@@ -1,0 +1,1 @@
+import ChatPanel from '../ChatPanel';\n\nexport default function ChatPanelExample() {\n  return (\n    <div className=\"p-4 max-w-md\">\n      <ChatPanel \n        listenerCount={1247}\n        onSendMessage={(message) => console.log('Message sent:', message)}\n      />\n    </div>\n  );\n}

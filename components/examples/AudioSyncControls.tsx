@@ -1,0 +1,1 @@
+import AudioSyncControls from '../AudioSyncControls';\n\nexport default function AudioSyncControlsExample() {\n  return (\n    <div className=\"p-4\">\n      <AudioSyncControls \n        onSyncAdjust={(offset) => console.log('Sync adjusted to:', offset, 'ms')}\n        onAutoSync={() => console.log('Auto sync triggered')}\n        currentOffset={0}\n      />\n    </div>\n  );\n}
