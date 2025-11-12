@@ -1,0 +1,1 @@
+ALTER TABLE "users" ADD COLUMN "has_agreed_caster_warning" boolean DEFAULT false NOT NULL;
